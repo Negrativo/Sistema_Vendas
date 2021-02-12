@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/02/12 16:08:49.011,=C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/12 16:12:02.651,C:\Delphi\Sistema_Vendas\Login.dfm=C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/02/12 16:12:02.651,C:\Delphi\Sistema_Vendas\Login.pas=C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/12 16:14:48.809,C:\Delphi\Sistema_Vendas\Sistema.dproj=C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/02/12 16:14:50.930,=C:\Delphi\Sistema_Vendas\ModelSupport_Sistema\default.txaPackage</Transaction>
+    <Transaction>2021/02/12 16:16:23.287,C:\Delphi\Sistema_Vendas\Login.pas=</Transaction>
+    <Transaction>2021/02/12 16:16:56.024,=C:\Delphi\Sistema_Vendas\Unit1.pas</Transaction>
+    <Transaction>2021/02/12 16:17:05.968,=C:\Delphi\Sistema_Vendas\Unit1.pas</Transaction>
+    <Transaction>2021/02/12 16:26:54.576,C:\Delphi\Sistema_Vendas\fonte\login.dfm=C:\Delphi\Sistema_Vendas\Unit1.dfm</Transaction>
+    <Transaction>2021/02/12 16:26:54.576,C:\Delphi\Sistema_Vendas\fonte\login.pas=C:\Delphi\Sistema_Vendas\Unit1.pas</Transaction>
+    <Transaction>2021/02/12 17:13:13.396,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+    <Transaction>2021/02/12 17:32:34.828,C:\Delphi\Sistema_Vendas\fonte\form_principal.pas=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+    <Transaction>2021/02/12 17:32:34.828,C:\Delphi\Sistema_Vendas\fonte\form_principal.dfm=C:\Delphi\Sistema_Vendas\Unit2.dfm</Transaction>
+    <Transaction>2021/02/12 17:33:20.530,=C:\Delphi\Marmoraria\fontes\Cadastro\Cliente.pas</Transaction>
+    <Transaction>2021/02/12 17:34:14.109,C:\Delphi\Marmoraria\fontes\Cadastro\Cliente.pas=</Transaction>
+    <Transaction>2021/02/12 17:34:25.502,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+    <Transaction>2021/02/12 17:48:04.988,C:\Delphi\Sistema_Vendas\fonte\Cadastro\Clientes.pas=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+    <Transaction>2021/02/12 17:48:04.988,C:\Delphi\Sistema_Vendas\fonte\Cadastro\Clientes.dfm=C:\Delphi\Sistema_Vendas\Unit2.dfm</Transaction>
+    <Transaction>2021/02/12 18:04:26.653,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+    <Transaction>2021/02/12 18:07:02.718,C:\Delphi\Sistema_Vendas\fonte\Banco\conexao.dfm=C:\Delphi\Sistema_Vendas\Unit2.dfm</Transaction>
+    <Transaction>2021/02/12 18:07:02.718,C:\Delphi\Sistema_Vendas\fonte\Banco\conexao.pas=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
