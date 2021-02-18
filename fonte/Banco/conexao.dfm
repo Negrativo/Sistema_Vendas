@@ -20,6 +20,7 @@ object form_conexao: Tform_conexao
       'Password=Negrativo322+'
       'DriverID=MySQL')
     Connected = True
+    LoginPrompt = False
     Left = 64
     Top = 40
   end
