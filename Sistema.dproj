@@ -42,7 +42,7 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
         <DCC_DcuOutput>C:\Delphi\Sistema_Vendas\Win32\Debug\</DCC_DcuOutput>
-        <DCC_ExeOutput>C:\Delphi\</DCC_ExeOutput>
+        <DCC_ExeOutput>C:\Delphi\Sistema_Vendas\</DCC_ExeOutput>
         <DCC_E>false</DCC_E>
         <DCC_N>false</DCC_N>
         <DCC_S>false</DCC_S>

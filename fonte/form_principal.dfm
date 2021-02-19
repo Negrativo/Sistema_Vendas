@@ -12,6 +12,7 @@ object Principal: TPrincipal
   Font.Style = []
   Menu = menu
   OldCreateOrder = False
+  OnDestroy = FormDestroy
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
@@ -239,6 +240,7 @@ object Principal: TPrincipal
         6DD7C054A91B77AEE97D35A5BF2D142BF77D2627F5C7889EF80E27967D15D631
         7FBE501E5C90770C00C600600C00C600600C00F61BA83C427F8A09076F000000
         0049454E44AE426082}
+      OnClick = Image3Click
       ExplicitLeft = 672
       ExplicitTop = 9
       ExplicitHeight = 96

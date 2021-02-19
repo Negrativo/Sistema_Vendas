@@ -440,7 +440,6 @@ object Form_Clientes: TForm_Clientes
         Height = 21
         DataField = 'nnumeclie'
         DataSource = D_tcliente
-        Enabled = False
         TabOrder = 2
       end
       object DBEdit4: TDBEdit
@@ -493,6 +492,7 @@ object Form_Clientes: TForm_Clientes
     end
   end
   object T_Cliente: TFDTable
+    Active = True
     IndexFieldNames = 'nnumeclie'
     Connection = form_conexao.conexao
     UpdateOptions.UpdateTableName = 'Marmoraria.tabcliente'
@@ -559,6 +559,7 @@ object Form_Clientes: TForm_Clientes
     Top = 405
   end
   object Q_Cliente: TFDQuery
+    Active = True
     MasterSource = D_tcliente
     Connection = form_conexao.conexao
     SQL.Strings = (

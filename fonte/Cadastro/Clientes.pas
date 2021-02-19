@@ -89,8 +89,17 @@ end;
 
 procedure TForm_Clientes.Image2Click(Sender: TObject);
 begin
- Q_cliente.Post;
- MessageDlg('Cliente salvo com sucesso!', mtInformation, mbOkCancel, 0);
+  T_Cliente.Insert;
+
+  if (Q_Cliente.state in [dsBrowse,dsInsert]) and (not Q_ClienteNNUMECLIE.IsNull) then begin
+    Q_Cliente.Post;
+  end;
+
+  if Conexao.form_conexao.conexao.InTransaction then
+    Conexao.form_conexao.conexao.InTransaction;
+
+  Q_Cliente.Refresh;
+  ShowMessage('Cliente salvo com sucesso!');
 end;
 
 procedure TForm_Clientes.SpeedButton1Click(Sender: TObject);

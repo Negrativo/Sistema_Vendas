@@ -26,6 +26,8 @@ type
     Image2: TImage;
     Image3: TImage;
     procedure biClick(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -45,6 +47,16 @@ procedure TPrincipal.biClick(Sender: TObject);
 begin
   Form_Clientes := TForm_Clientes.Create(principal);
   Form_Clientes.ShowModal;
+end;
+
+procedure TPrincipal.FormDestroy(Sender: TObject);
+begin
+  Application.Destroy;
+end;
+
+procedure TPrincipal.Image3Click(Sender: TObject);
+begin
+  Application.Destroy;
 end;
 
 end.
