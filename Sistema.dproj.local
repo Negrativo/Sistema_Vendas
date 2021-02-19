@@ -2,25 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/02/12 16:08:49.000.011,=C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/02/12 16:12:02.000.651,C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Delphi\Sistema_Vendas\Login.dfm</Transaction>
-    <Transaction>2021/02/12 16:12:02.000.651,C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Delphi\Sistema_Vendas\Login.pas</Transaction>
-    <Transaction>2021/02/12 16:14:48.000.809,C:\Users\lucas\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Delphi\Sistema_Vendas\Sistema.dproj</Transaction>
     <Transaction>2021/02/12 16:14:50.000.930,=C:\Delphi\Sistema_Vendas\ModelSupport_Sistema\default.txaPackage</Transaction>
     <Transaction>2021/02/12 16:16:23.000.287,C:\Delphi\Sistema_Vendas\Login.pas=</Transaction>
     <Transaction>2021/02/12 16:16:56.000.024,=C:\Delphi\Sistema_Vendas\Unit1.pas</Transaction>
     <Transaction>2021/02/12 16:17:05.000.968,=C:\Delphi\Sistema_Vendas\Unit1.pas</Transaction>
-    <Transaction>2021/02/12 16:26:54.000.576,C:\Delphi\Sistema_Vendas\Unit1.dfm=C:\Delphi\Sistema_Vendas\fonte\login.dfm</Transaction>
-    <Transaction>2021/02/12 16:26:54.000.576,C:\Delphi\Sistema_Vendas\Unit1.pas=C:\Delphi\Sistema_Vendas\fonte\login.pas</Transaction>
     <Transaction>2021/02/12 17:13:13.000.396,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
-    <Transaction>2021/02/12 17:32:34.000.828,C:\Delphi\Sistema_Vendas\Unit2.pas=C:\Delphi\Sistema_Vendas\fonte\form_principal.pas</Transaction>
-    <Transaction>2021/02/12 17:32:34.000.828,C:\Delphi\Sistema_Vendas\Unit2.dfm=C:\Delphi\Sistema_Vendas\fonte\form_principal.dfm</Transaction>
     <Transaction>2021/02/12 17:33:20.000.530,=C:\Delphi\Marmoraria\fontes\Cadastro\Cliente.pas</Transaction>
     <Transaction>2021/02/12 17:34:14.000.109,C:\Delphi\Marmoraria\fontes\Cadastro\Cliente.pas=</Transaction>
     <Transaction>2021/02/12 17:34:25.000.502,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
-    <Transaction>2021/02/12 17:48:04.000.988,C:\Delphi\Sistema_Vendas\Unit2.pas=C:\Delphi\Sistema_Vendas\fonte\Cadastro\Clientes.pas</Transaction>
-    <Transaction>2021/02/12 17:48:04.000.988,C:\Delphi\Sistema_Vendas\Unit2.dfm=C:\Delphi\Sistema_Vendas\fonte\Cadastro\Clientes.dfm</Transaction>
     <Transaction>2021/02/12 18:04:26.000.653,=C:\Delphi\Sistema_Vendas\Unit2.pas</Transaction>
-    <Transaction>2021/02/12 18:07:02.000.718,C:\Delphi\Sistema_Vendas\Unit2.dfm=C:\Delphi\Sistema_Vendas\fonte\Banco\conexao.dfm</Transaction>
-    <Transaction>2021/02/12 18:07:02.000.718,C:\Delphi\Sistema_Vendas\Unit2.pas=C:\Delphi\Sistema_Vendas\fonte\Banco\conexao.pas</Transaction>
   </Transactions>
 </BorlandProject>

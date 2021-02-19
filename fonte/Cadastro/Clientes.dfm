@@ -11,6 +11,7 @@ object Form_Clientes: TForm_Clientes
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnActivate = FormActivate
   PixelsPerInch = 96
   TextHeight = 13
   object TabbedNotebook: TTabbedNotebook
@@ -297,6 +298,7 @@ object Form_Clientes: TForm_Clientes
           6B58EDF76A386EEBD195476F0A4CDBA13E0DC0A5B63F971B7D62A286A3D329D1
           C40370BAF6A7265D536BF89FD86EE0B62A4A6805E14861C2D52967A4784CF5FF
           AF57B39D3A57CA610000000049454E44AE426082}
+        OnClick = Image1Click
       end
       object Image2: TImage
         Left = 144
@@ -329,6 +331,7 @@ object Form_Clientes: TForm_Clientes
           9C3EB4C7AE9D2BA51EC10D7FF959D55E8CDAEBE9D40E007100880340DCC00128
           D9001007803800C401200E0071008803401C00E2001007803800C4FD01AF408B
           7F0936704B0000000049454E44AE426082}
+        OnClick = Image2Click
       end
       object Image3: TImage
         Left = 256
@@ -554,5 +557,61 @@ object Form_Clientes: TForm_Clientes
     OutputConverters = <>
     Left = 564
     Top = 405
+  end
+  object Q_Cliente: TFDQuery
+    MasterSource = D_tcliente
+    Connection = form_conexao.conexao
+    SQL.Strings = (
+      'select *'
+      '  from tabcliente')
+    Left = 412
+    Top = 408
+    object Q_Clientennumeclie: TIntegerField
+      FieldName = 'nnumeclie'
+      Origin = 'nnumeclie'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object Q_Clientecnomeclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cnomeclie'
+      Origin = 'cnomeclie'
+      Size = 50
+    end
+    object Q_Clientecmailclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cmailclie'
+      Origin = 'cmailclie'
+      Size = 30
+    end
+    object Q_Clientec_cpfclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'c_cpfclie'
+      Origin = 'c_cpfclie'
+      Size = 14
+    end
+    object Q_Clientecendeclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cendeclie'
+      Origin = 'cendeclie'
+      Size = 100
+    end
+    object Q_Clientednascclie: TDateField
+      AutoGenerateValue = arDefault
+      FieldName = 'dnascclie'
+      Origin = 'dnascclie'
+    end
+    object Q_Clientecsexoclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'csexoclie'
+      Origin = 'csexoclie'
+      Size = 1
+    end
+    object Q_Clientecfoneclie: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cfoneclie'
+      Origin = 'cfoneclie'
+      Size = 11
+    end
   end
 end

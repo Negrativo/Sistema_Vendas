@@ -49,7 +49,19 @@ type
     Image2: TImage;
     Image3: TImage;
     Image4: TImage;
+    Q_Cliente: TFDQuery;
+    Q_Clientennumeclie: TIntegerField;
+    Q_Clientecnomeclie: TStringField;
+    Q_Clientecmailclie: TStringField;
+    Q_Clientec_cpfclie: TStringField;
+    Q_Clientecendeclie: TStringField;
+    Q_Clientednascclie: TDateField;
+    Q_Clientecsexoclie: TStringField;
+    Q_Clientecfoneclie: TStringField;
     procedure SpeedButton1Click(Sender: TObject);
+    procedure Image2Click(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -64,6 +76,22 @@ implementation
 {$R *.dfm}
 
 uses conexao;
+
+procedure TForm_Clientes.FormActivate(Sender: TObject);
+begin
+  T_Cliente.Active := true;
+end;
+
+procedure TForm_Clientes.Image1Click(Sender: TObject);
+begin
+ T_Cliente.Insert;
+end;
+
+procedure TForm_Clientes.Image2Click(Sender: TObject);
+begin
+ Q_cliente.Post;
+ MessageDlg('Cliente salvo com sucesso!', mtInformation, mbOkCancel, 0);
+end;
 
 procedure TForm_Clientes.SpeedButton1Click(Sender: TObject);
 begin

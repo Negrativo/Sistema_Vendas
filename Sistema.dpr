@@ -13,8 +13,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(Tform_login, form_login);
-  Application.CreateForm(TPrincipal, Principal);
-  Application.CreateForm(TForm_Clientes, Form_Clientes);
   Application.CreateForm(Tform_conexao, form_conexao);
   Application.Run;
 end.
