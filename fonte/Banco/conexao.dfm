@@ -15,11 +15,7 @@ object form_conexao: Tform_conexao
   TextHeight = 13
   object conexao: TFDConnection
     Params.Strings = (
-      'Database=Marmoraria'
-      'User_Name=root'
-      'Password=Negrativo322+'
-      'DriverID=MySQL')
-    Connected = True
+      'ConnectionDef=Conexao')
     LoginPrompt = False
     Left = 64
     Top = 40

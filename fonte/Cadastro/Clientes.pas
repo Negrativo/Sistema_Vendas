@@ -58,10 +58,18 @@ type
     Q_Clientednascclie: TDateField;
     Q_Clientecsexoclie: TStringField;
     Q_Clientecfoneclie: TStringField;
+    teste: TLabel;
+    campo1: TEdit;
+    campo2: TEdit;
+    Label9: TLabel;
+    result: TEdit;
+    Label10: TLabel;
+    Button1: TButton;
     procedure SpeedButton1Click(Sender: TObject);
     procedure Image2Click(Sender: TObject);
     procedure Image1Click(Sender: TObject);
     procedure FormActivate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -76,6 +84,20 @@ implementation
 {$R *.dfm}
 
 uses conexao;
+
+procedure TForm_Clientes.Button1Click(Sender: TObject);
+var
+ variavel_1,
+ variavel_2,
+ resultado : Integer;
+begin
+  variavel_1 := StrtoInt(campo1.Text);
+  variavel_2 := StrtoInt(campo2.Text);
+
+  resultado :=   variavel_1 + variavel_2;
+
+  result.Text := resultado.ToString;
+end;
 
 procedure TForm_Clientes.FormActivate(Sender: TObject);
 begin

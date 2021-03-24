@@ -27,7 +27,6 @@ object Form_Clientes: TForm_Clientes
     TabFont.Name = 'Tahoma'
     TabFont.Style = []
     TabOrder = 0
-    ExplicitLeft = -8
     object TTabPage
       Left = 4
       Top = 24
@@ -415,6 +414,33 @@ object Form_Clientes: TForm_Clientes
           7FBE501E5C90770C00C600600C00C600600C00F61BA83C427F8A09076F000000
           0049454E44AE426082}
       end
+      object teste: TLabel
+        Left = 112
+        Top = 296
+        Width = 90
+        Height = 13
+        Caption = 'Informe o numero:'
+      end
+      object Label9: TLabel
+        Left = 335
+        Top = 296
+        Width = 84
+        Height = 13
+        Caption = 'segundo numero:'
+      end
+      object Label10: TLabel
+        Left = 591
+        Top = 289
+        Width = 15
+        Height = 24
+        Caption = '='
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -20
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
       object DBEdit1: TDBEdit
         Left = 120
         Top = 34
@@ -489,12 +515,41 @@ object Form_Clientes: TForm_Clientes
           'Masculino'
           'Feminino')
       end
+      object campo1: TEdit
+        Left = 208
+        Top = 293
+        Width = 121
+        Height = 21
+        TabOrder = 8
+      end
+      object campo2: TEdit
+        Left = 425
+        Top = 293
+        Width = 121
+        Height = 21
+        TabOrder = 9
+      end
+      object result: TEdit
+        Left = 648
+        Top = 293
+        Width = 81
+        Height = 21
+        TabOrder = 10
+      end
+      object Button1: TButton
+        Left = 480
+        Top = 336
+        Width = 75
+        Height = 25
+        Caption = 'SOMA'
+        TabOrder = 11
+        OnClick = Button1Click
+      end
     end
   end
   object T_Cliente: TFDTable
-    Active = True
     IndexFieldNames = 'nnumeclie'
-    Connection = form_conexao.conexao
+    ConnectionName = 'Conexao'
     UpdateOptions.UpdateTableName = 'Marmoraria.tabcliente'
     TableName = 'Marmoraria.tabcliente'
     Left = 500
@@ -549,6 +604,7 @@ object Form_Clientes: TForm_Clientes
   end
   object D_tcliente: TDataSource
     DataSet = T_Cliente
+    Enabled = False
     Left = 620
     Top = 408
   end
@@ -559,14 +615,13 @@ object Form_Clientes: TForm_Clientes
     Top = 405
   end
   object Q_Cliente: TFDQuery
-    Active = True
     MasterSource = D_tcliente
     Connection = form_conexao.conexao
     SQL.Strings = (
       'select *'
       '  from tabcliente')
     Left = 412
-    Top = 408
+    Top = 416
     object Q_Clientennumeclie: TIntegerField
       FieldName = 'nnumeclie'
       Origin = 'nnumeclie'

@@ -12,6 +12,7 @@ object Principal: TPrincipal
   Font.Style = []
   Menu = menu
   OldCreateOrder = False
+  OnClose = FormClose
   OnDestroy = FormDestroy
   PixelsPerInch = 96
   TextHeight = 13
